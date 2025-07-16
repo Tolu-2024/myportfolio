@@ -1,0 +1,72 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #F9FAFB;
+  color: #111827;
+}
+
+/* header {
+  background: transparent;
+  height: 70px;
+} */
+
+
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 30px;
+  margin-top: 3%;
+}
+
+/* img {
+  max-width: 100%;
+  border-radius: 8px;
+} */
+
+.project {
+  margin-bottom: 30px;
+}
+
+footer {
+  background: #1F2937;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  margin-top: 3%;
+}
+
+button {
+  background-color: #3B82F6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2563EB;
+}
+
+/* About page background image */
+.about-page {
+  background: url('tolu3.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.about-content {
+  background-color: rgba(59, 130, 246, 0.2);
+  padding: 60px;
+  border-radius: 10px;
+  color: white !important;
+}
+
+@media screen and (max-width:800px) {
+  .about-content {
+    width: 90%;
+    padding-left: 0 !important;
+  }
+}

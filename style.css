@@ -1,0 +1,100 @@
+*{
+  text-decoration: none !important;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #F9FAFB;
+  color: #111827;
+}
+
+/* .header0 {
+  background: grey;
+  height: 150px;
+} */
+
+
+.container0 {
+  max-width: 1000px;
+  height: fit-content;
+  margin: auto;
+  padding: 20px;
+}
+
+.scroll-gallery {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+}
+
+.scroll-track {
+  display: inline-block;
+  animation: scrollLeft 20s linear infinite;
+}
+
+.scroll-gallery:hover .scroll-track {
+  animation-play-state: paused; /* pause on hover */
+}
+
+.scroll-img {
+  height: 250px;
+  width: auto;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+/* Auto-scroll animation */
+@keyframes scrollLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Responsive behavior */
+@media (min-width: 992px) {
+  .scroll-gallery {
+    overflow-x: hidden;
+  }
+  .scroll-track {
+    animation: none;
+    display: flex;
+    justify-content: center;
+  }
+  .scroll-img {
+    height: 250px;
+  }
+}
+
+
+.project {
+  margin-bottom: 30px;
+}
+
+ footer {
+  background: #1F2937;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+
+
+
+
+/* Buttons if you use them later */
+button {
+  background-color: #3B82F6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2563EB;
+}
